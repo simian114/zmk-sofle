@@ -10,9 +10,6 @@
 
 #define U_MOUSE_MOVE_DELAY 0
 
-#define MOVE_X(x) MOVE_HOR(x)
-#define MOVE_Y(y) MOVE_VERT(y)
-
 &mmv {
     time-to-max-speed-ms = <300>;
     exponent = <1>;
