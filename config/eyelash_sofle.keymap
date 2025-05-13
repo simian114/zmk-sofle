@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 800  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
 
 #include <input/processors.dtsi>
@@ -8,8 +8,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 800
 #define U_MOUSE_MOVE_DELAY 0
+
 #define MOVE_X(x) MOVE_HOR(x)
 #define MOVE_Y(y) MOVE_VERT(y)
 
@@ -17,9 +17,6 @@
     time-to-max-speed-ms = <300>;
     exponent = <1>;
 };
-
-&mmv MOVE_X(800)
-&mmv MOVE_Y(1000)
 
 / {
     mmv_input_listener {
