@@ -156,7 +156,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - Sft+Gui+$$mdi:arrow-right-bold$$
   - END
-  - +
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
@@ -169,7 +169,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - Gui+$$mdi:arrow-right-bold$$
-  - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -181,7 +181,7 @@ layers:
   - Sft+Alt+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - Sft+Alt+$$mdi:arrow-right-bold$$
-  - $$mdi:progress-download$$
+  - Alt+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
