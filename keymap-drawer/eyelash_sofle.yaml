@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '3'
+  - {t: '$$mdi:keyboard-tab$$', h: '3'}
   - Q
   - W
   - E
@@ -84,7 +84,7 @@ layers:
   - _
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '{'
+  - Gui++
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F11
   - F11
@@ -97,7 +97,7 @@ layers:
   - +
   - (
   - )
-  - '&mkp MB5'
+  - {t: Gui+-, s: Gui+_}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
   - $$mdi:arrow-left-bold$$
@@ -106,11 +106,11 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '}'
-  - RGB SPI
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - RGB BRD
