@@ -80,11 +80,11 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
+  - {t: '-', s: _}
+  - _
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '{'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F11
   - F11
