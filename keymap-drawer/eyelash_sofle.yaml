@@ -179,7 +179,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - Gui+$$mdi:arrow-left-bold$$
   - Sft+Alt+$$mdi:arrow-left-bold$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Alt+$$mdi:arrow-right-bold$$
   - Alt+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
