@@ -1,5 +1,6 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 800  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
+#define U_MOUSE_MOVE_DELAY 0
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
@@ -7,21 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-
-#define U_MOUSE_MOVE_DELAY 0
-
-&mmv {
-    time-to-max-speed-ms = <300>;
-    exponent = <1>;
-};
-
-/ {
-    mmv_input_listener {
-        compatible = "zmk,input-listener";
-        device = <&mmv>;
-        input-processors = <&zip_scale 120 100>;
-    };
-};
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
