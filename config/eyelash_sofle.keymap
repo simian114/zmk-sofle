@@ -80,11 +80,11 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LG(F13)  &kp LG(F14)  &kp LG(F15)  &trans  &trans    &trans  &trans          &trans          &trans          &trans           &trans           &trans
-&trans  &kp LG(F16)  &kp LG(F18)  &kp LG(F18)  &trans  &trans    &trans  &trans          &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp LA(RIGHT)    &trans
-&trans  &kp LG(F19)  &trans       &kp LG(F20)  &trans  &trans    &trans  &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &trans
-&trans  &trans       &trans       &trans       &trans  &trans    &trans  &mkp MB3        &msc SCRL_UP    &msc SCRL_DOWN  &trans           &trans           &trans
-&trans  &trans       &trans       &trans       &trans  &trans    &trans  &trans          &mkp MB1        &mkp MB2        &mkp MB4         &mkp MB5
+&trans  &kp LG(F13)         &kp LC(UP_ARROW)    &kp LG(F15)    &trans  &trans    &trans  &trans          &trans          &trans          &trans           &trans           &trans
+&trans  &kp LC(LEFT_ARROW)  &kp LG(F18)         &kp LC(RIGHT)  &trans  &trans    &trans  &trans          &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp LA(RIGHT)    &trans
+&trans  &kp LG(F19)         &kp LC(DOWN_ARROW)  &kp LG(F20)    &trans  &trans    &trans  &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &trans
+&trans  &trans              &trans              &trans         &trans  &trans    &trans  &mkp MB3        &msc SCRL_UP    &msc SCRL_DOWN  &trans           &trans           &trans
+&trans  &trans              &trans              &trans         &trans  &trans    &trans  &trans          &mkp MB1        &mkp MB2        &mkp MB4         &mkp MB5
             >;
         };
     };
