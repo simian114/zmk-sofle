@@ -198,7 +198,7 @@ layers:
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+F13
-  - Gui+F14
+  - Ctl+$$mdi:arrow-up-bold$$
   - Gui+F15
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -210,9 +210,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - Gui+F16
+  - Ctl+$$mdi:arrow-left-bold$$
   - Gui+F18
-  - Gui+F18
+  - Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -224,7 +224,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+F19
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:arrow-down-bold$$
   - Gui+F20
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
