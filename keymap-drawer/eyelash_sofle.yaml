@@ -152,9 +152,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - F12
+  - Sft+Gui+$$mdi:arrow-right-bold$$
   - _
   - +
   - {t: '$$mdi:transfer$$', type: trans}
