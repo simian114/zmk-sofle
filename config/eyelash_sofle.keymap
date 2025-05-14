@@ -87,5 +87,15 @@
 &trans  &trans              &trans              &trans         &trans                 &trans    &trans  &trans          &mkp MB1        &mkp MB2        &mkp MB4         &mkp MB5
             >;
         };
+
+        layer_4 {
+            bindings = <
+&trans  &kp LS(LG(LEFT))  &kp UP    &kp LG(LS(RIGHT))  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT          &kp DOWN  &kp RIGHT          &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LA(LEFT))  &trans    &kp LA(LS(RIGHT))  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans    &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans    &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
