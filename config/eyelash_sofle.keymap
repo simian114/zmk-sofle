@@ -49,7 +49,6 @@
 &kp C_MUTE  &kp LALT  &kp LEFT_GUI  &mo 1   &kp SPACE  &kp LG(F20)    &kp ENTER        &kp RET  &kp RETURN  &mo 2      &kp BACKSPACE  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "LAYER0";
         };
 
@@ -63,28 +62,25 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6              &kp F7                  &kp F8          &kp F9                   &kp F10              &trans
-&trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &kp HOME            &kp LS(LG(LEFT_ARROW))  &kp UP_ARROW    &kp LS(LG(RIGHT_ARROW))  &kp END              &trans
-&trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_LEFT   &kp LG(LEFT_ARROW)  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp LG(RIGHT_ARROW)  &trans
-&trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &kp LG(LEFT_ARROW)  &kp LS(LA(LEFT_ARROW))  &trans          &kp LS(LA(RIGHT_ARROW))  &kp LA(RIGHT_ARROW)  &trans
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans              &trans                  &trans          &trans                   &trans               &kp HOME
+&trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &trans              &kp LS(LG(LEFT_ARROW))  &kp UP_ARROW    &kp LS(LG(RIGHT_ARROW))  &kp F12              &kp END
+&trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_LEFT   &kp LG(LEFT_ARROW)  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp LG(RIGHT_ARROW)  &kp PAGE_UP
+&trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &kp LG(LEFT_ARROW)  &kp LS(LA(LEFT_ARROW))  &kp END         &kp LS(LA(RIGHT_ARROW))  &kp LA(RIGHT_ARROW)  &kp PAGE_DOWN
 &trans     &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans              &trans                  &trans          &trans                   &trans
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
             bindings = <
-&trans  &kp LG(F13)         &kp LC(UP_ARROW)    &kp LG(F15)    &trans                 &trans    &trans  &trans          &trans          &trans          &trans           &trans           &trans
-&trans  &kp LC(LEFT_ARROW)  &kp LG(F18)         &kp LC(RIGHT)  &kp LS(LA(LC(LG(F))))  &trans    &trans  &trans          &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp LA(RIGHT)    &trans
-&trans  &kp LG(F19)         &kp LC(DOWN_ARROW)  &kp LG(F20)    &trans                 &trans    &trans  &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &trans
-&trans  &trans              &trans              &trans         &trans                 &trans    &trans  &mkp MB3        &msc SCRL_UP    &msc SCRL_DOWN  &trans           &trans           &trans
-&trans  &trans              &trans              &trans         &trans                 &trans    &trans  &trans          &mkp MB1        &mkp MB2        &mkp MB4         &mkp MB5
+&trans  &kp LG(F13)         &kp LC(UP_ARROW)    &kp LG(F14)    &trans  &trans    &trans  &trans          &trans          &trans          &trans           &trans           &trans
+&trans  &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT)  &trans  &trans    &trans  &trans          &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp LA(RIGHT)    &trans
+&trans  &kp LG(F15)         &kp LG(F17)         &kp LG(F16)    &trans  &trans    &trans  &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &trans
+&trans  &trans              &trans              &trans         &trans  &trans    &trans  &mkp MB3        &msc SCRL_UP    &msc SCRL_DOWN  &trans           &trans           &trans
+&trans  &trans              &trans              &trans         &trans  &trans    &trans  &trans          &mkp MB1        &mkp MB2        &mkp MB4         &mkp MB5
             >;
         };
 
