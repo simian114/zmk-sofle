@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1400  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25
 
 // 10
@@ -23,7 +23,7 @@
 };
 
 &mmv {
-    time-to-max-speed-ms = <200>;
+    time-to-max-speed-ms = <400>;
     acceleration-exponent = <1>;
     trigger-period-ms = <16>;
 };
